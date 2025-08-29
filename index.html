@@ -44,14 +44,14 @@
           "src", replace "template" with model name, make sure the .obj is immediately behind the model name,
           make sure that the model file is placed in the same repository where this index.html file is located -->
         <a-asset-item
-          id="template-obj"
-          src="template.obj"
+          id="caffeine-obj"
+          src="caffeine.obj"
         >
         <!-- repeat the same for mtl file -->
         </a-asset-item>
         <a-asset-item
-          id="template-mtl"
-          src="template.mtl"
+          id="caffeine-mtl"
+          src="caffeine.mtl"
         >
         </a-asset-item>
       </a-assets>
@@ -80,10 +80,10 @@
       position: adjust where your model appears above the Hiro Marker, if necessary,
       rotation: adjust the angle that your model appears above the Hiro Marker, if necessary,
       scale: adjust the size of your model when it first loads, if necessary,
-        OBJ 3D models cannot have animation -->
+      OBJ 3D models cannot have animation -->
         <a-entity
-          id="template-model"
-          obj-model="obj: #template-obj; mtl: #template-mtl"
+          id="caffeine-model"
+          obj-model="obj: #caffeine-obj; mtl: #caffeine-mtl"
           position="0 0 0"
           rotation="0 0 0"
           scale="1 1 1"
